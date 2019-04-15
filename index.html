@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo list app</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="resources/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+
+    <!-- Roboto Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <input type="text" placeholder="Enter an activity..." id="item">
+      <button id="add"> + </button>
+    </header>
+
+    <div class="container">
+      <!-- Uncompleted Tasks -->
+      <ul class="todo" id="todo"></ul>
+
+      <!-- Completed Tasks -->
+      <ul class="todo" id="completed"></ul>
+    </div>
+
+    <!-- Scripts -->
+    <script src="resources/js/main.js"> </script>
+  </body>
+</html>
